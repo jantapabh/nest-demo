@@ -3,8 +3,5 @@ export const Constant = {
   sequelizeRepo: 'sequelize',
   mongooseRepo: 'mongoose',
   userRepo: 'userRepo',
-  superuserRepo: 'superuserRepo',
-  scoreRepo: 'scoreRepo',
-  winnerRepo: 'winnerRepo',
-  authRepo: 'authRepo',
+  postRepo: 'postRepo',
 }

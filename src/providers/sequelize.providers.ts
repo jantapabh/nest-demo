@@ -1,6 +1,7 @@
 import { Sequelize } from 'sequelize-typescript';
 import { Constant } from '../config/constant'
-import { User } from '../users/model/user_sequelize.model'
+import { Users } from '../users/model/user_sequelize.model'
+import { Posts } from '../posts/model/posts.model'
 
 export const sequelizeProviders = [
   {
@@ -14,7 +15,7 @@ export const sequelizeProviders = [
         password: '',
         database: 'nestdemo',
       });
-      sequelize.addModels([User]);
+      sequelize.addModels([Users, Posts]);
       await sequelize.sync();
       return sequelize;
     },

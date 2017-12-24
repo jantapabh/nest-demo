@@ -84,6 +84,15 @@
     "@types/lodash" "*"
     "@types/validator" "*"
 
+"@types/sequelize@^4.0.80":
+  version "4.0.80"
+  resolved "https://registry.yarnpkg.com/@types/sequelize/-/sequelize-4.0.80.tgz#0bc3a81d89d6a54f946a3a91c26608d410f7cda7"
+  dependencies:
+    "@types/bluebird" "*"
+    "@types/continuation-local-storage" "*"
+    "@types/lodash" "*"
+    "@types/validator" "*"
+
 "@types/validator@*":
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/@types/validator/-/validator-6.3.0.tgz#d7454bd67c6a933a9dbe939ae16edbf0f6894e70"
